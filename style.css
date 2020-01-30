@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243, 235, 235);
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+.hero{
+    background-image: url(/img/action-adult-athlete-business-341003.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.overlay{
+    background-color: rgba(29, 29, 37, 0.904);
+    height: 100vh;
+}
+.logo{
+    padding-left: 2%;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+.nav{
+    background-color: rgb(20, 20, 20);
+    height: 40px;
+    width: 100%;
+    position: fixed;
+}
+.nav ul{
+    padding-left: 60%;
+}
+header .nav{
+    
+    padding-top: 2%;
+}
+header .nav ul li{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    padding-left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(252, 252, 252);
+}
+header .nav ul li a:hover{
+    color: rgb(255, 72, 0);
+}
+header .title{
+    padding-top: 20%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .title p{
+    border: 2px solid blanchedalmond;
+    width: 40%;
+    font-weight: lighter;
+    font-size: 23px;
+}
+header .title .title-small{
+    padding-left: 20%;
+}
+/*About*/
+
+.about{
+    padding-top: 5%;
+}
+.about h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+.about img{
+    padding-left: 45%;
+    height: 400px;
+    width: 400px;
+}
+.about-grid{
+    justify-content: center;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: auto auto;
+}
+.about p{
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow:5px 5px 10px 0px rgba(0, 0, 0, 0.226);
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
